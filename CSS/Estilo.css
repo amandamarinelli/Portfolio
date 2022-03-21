@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+/* Configurações globais de texto  */
+
+.Texto1 {
+    font-family: 'Fira Code', monospace;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #150940;
+}
+
+.Texto2 {
+    font-family: 'Fira Code', monospace;
+    font-weight: lighter;
+    font-size: x-large;
+    color: #150940;
+}
+
+.Texto3 {
+    font-family: 'Fira Code', monospace;
+    font-weight: lighter;
+    font-size: large;
+    color: #150940;
+
+}
+
+
+/* Configurações do cabeçalho */
+
+nav {
+    border: none;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 60%;
+    left: 30%;
+    margin-top: 1%;
+}
+
+
+nav a {
+    font-family: 'Fira Code', monospace;
+    font-weight: lighter;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 15%;
+    color: #FE914E;
+    position: relative;
+
+}
+
+#logo {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: xx-large;
+    position: relative;
+    display: inline;
+    color: #fff4ec;
+    text-shadow: 3px 3px 3px #FE914E;
+    margin-left: 1%;
+}
+
+/* Configurações da página inicial */
+
+.bloco-home {
+    border: none;
+    position: absolute;
+    display: block;
+    background-image: linear-gradient(45deg, #FE914E, #150940);
+    height: 780px;
+    width: 100%;
+}
+
+.text-position {
+    align-items: left;
+    position: absolute;
+    left: 170px;
+    top: 300px;
+}
+
+#image-home {
+    align-items: right;
+    position: absolute;
+    right: 170px;
+    top: 100px;
+    height: 550px;
+    width: 650px;
+}
+
+
+/* Configurações da página About me */
+
+.bloco-about {
+    position: absolute;
+    display: block;
+    background-color: #EDEBEB;
+    height: 600px;
+    width: 100%;
+    margin-top: 780px;
+}
+
+.description {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    width: 40%;
+    height: 90%;
+    text-align: justify;
+    margin-top: 5%;
+    transform: translateX(130%);
+}
+
+
+#bloco-about-image {
+    position: absolute;
+    left: 10%;
+    top: 90px;
+}
+
+.links{
+    position: relative;
+    display: inline;
+    text-decoration: none;
+}
